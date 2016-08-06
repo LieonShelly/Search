@@ -22,6 +22,7 @@ class HelpSearchBar: UISearchBar {
         if let textfield = valueForKey("searchField") as? UITextField {
             textfield.borderStyle = .RoundedRect
             textfield.tintColor =  UIColor.blackColor()
+            textfield.backgroundColor = UIColor.greenColor()
         }
         tintColor = UIColor.blueColor()
     }

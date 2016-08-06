@@ -18,7 +18,6 @@
 		CD3C65091D55985400BFC3DB /* HelpCenterHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3C65061D55985400BFC3DB /* HelpCenterHomeView.swift */; };
 		CD3C650A1D55985400BFC3DB /* HelpCenterSearchResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3C65071D55985400BFC3DB /* HelpCenterSearchResultView.swift */; };
 		CD3C650B1D55985400BFC3DB /* HelpSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3C65081D55985400BFC3DB /* HelpSearchBar.swift */; };
-		CD3C650F1D559CB400BFC3DB /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = CD3C650E1D559CB400BFC3DB /* Podfile */; };
 		CDC5845D7BA9882984CA7325 /* Pods_Search.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E06C9C3ABAF544B18E70E90 /* Pods_Search.framework */; };
 /* End PBXBuildFile section */
 
@@ -60,7 +59,6 @@
 		CD3C65061D55985400BFC3DB /* HelpCenterHomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpCenterHomeView.swift; sourceTree = "<group>"; };
 		CD3C65071D55985400BFC3DB /* HelpCenterSearchResultView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpCenterSearchResultView.swift; sourceTree = "<group>"; };
 		CD3C65081D55985400BFC3DB /* HelpSearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpSearchBar.swift; sourceTree = "<group>"; };
-		CD3C650E1D559CB400BFC3DB /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,7 +107,6 @@
 		CD3C64C91D5597D200BFC3DB = {
 			isa = PBXGroup;
 			children = (
-				CD3C650E1D559CB400BFC3DB /* Podfile */,
 				CD3C64D41D5597D200BFC3DB /* Search */,
 				CD3C64E91D5597D200BFC3DB /* 搜索功能Tests */,
 				CD3C64F41D5597D200BFC3DB /* 搜索功能UITests */,
@@ -282,7 +279,6 @@
 			files = (
 				CD3C64E01D5597D200BFC3DB /* LaunchScreen.storyboard in Resources */,
 				CD3C64DD1D5597D200BFC3DB /* Assets.xcassets in Resources */,
-				CD3C650F1D559CB400BFC3DB /* Podfile in Resources */,
 				CD3C64DB1D5597D200BFC3DB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

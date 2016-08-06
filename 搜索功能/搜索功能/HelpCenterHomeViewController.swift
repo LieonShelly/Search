@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SnapKit
 
 class HelpCenterHomeViewController: UIViewController {
 
@@ -39,7 +40,7 @@ class HelpCenterHomeViewController: UIViewController {
         view.addSubview(homeView)
         view.addSubview(resultTableView)
         searchBar.snp_makeConstraints { (make) in
-            make.top.equalTo(view.snp_top).offset(10)
+            make.top.equalTo(view.snp_top).offset(64)
             make.left.equalTo(10)
             make.right.equalTo(-10)
             make.height.equalTo(34)

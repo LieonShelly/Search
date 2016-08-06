@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SnapKit
 
 private let helpCenterHomeMainTableCellID: String = "HelpCenterHomeMainTableCell"
 private let helpCenterHomeSubTableCellID: String = "HelpCenterHomeSubTableCell"
@@ -78,7 +79,6 @@ extension HelpCenterHomeView: UITableViewDelegate {
 private class HelpCenterHomeMainTableCell: UITableViewCell {
     override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
-        backgroundColor = UIColor.randomColor()
     }
     
     class func cellWith(tableView: UITableView) -> HelpCenterHomeMainTableCell {
@@ -97,7 +97,6 @@ private class HelpCenterHomeMainTableCell: UITableViewCell {
 private class HelpCenterHomeSubTableCell: UITableViewCell {
     override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
-        backgroundColor = UIColor.randomColor()
     }
     
     class func cellWith(tableView: UITableView) -> HelpCenterHomeSubTableCell {
